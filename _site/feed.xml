@@ -1,26 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-18T16:53:43+08:00</updated><id>/feed.xml</id><title type="html">BlackHe</title><subtitle>老何的博客，专注于分享技术.</subtitle><entry><title type="html">apache pulsar</title><link href="/jekyll/update/2020/01/18/apache-pulsar.html" rel="alternate" type="text/html" title="apache pulsar" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>/jekyll/update/2020/01/18/apache-pulsar</id><content type="html" xml:base="/jekyll/update/2020/01/18/apache-pulsar.html">&lt;h2 id=&quot;apache-pulsa专题分享&quot;&gt;apache pulsa专题分享&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T07:47:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>老何的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-15T00:00:00+08:00</published><updated>2020-03-15T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html">&lt;h3 id=&quot;mysql&quot;&gt;mysql&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;what&lt;/li&gt;
-  &lt;li&gt;who&lt;/li&gt;
-  &lt;li&gt;when&lt;/li&gt;
-  &lt;li&gt;how&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">apache pulsa专题分享</summary></entry><entry><title type="html">老何博客开篇啦</title><link href="/jekyll/update/2020/01/17/welcome-to-blackhe-blog.html" rel="alternate" type="text/html" title="老何博客开篇啦" /><published>2020-01-17T22:00:00+08:00</published><updated>2020-01-17T22:00:00+08:00</updated><id>/jekyll/update/2020/01/17/welcome-to-blackhe-blog</id><content type="html" xml:base="/jekyll/update/2020/01/17/welcome-to-blackhe-blog.html">&lt;h2 id=&quot;blackhe开篇博客用文字记录生活&quot;&gt;BlackHe开篇博客，用文字记录生活&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html&quot;&gt;高可用mysql(一)&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;从2016年开始陆续在博客园，CSDN，微信公众号，知乎等平台写博客，但一直断断续续，没有坚持下来，
-很大一部分原因还是想自己DIY，不想在那些平台上浮云漂流。
-后来偶然之际，得知github可以托管博客，于是乎各种倒腾，花了好多时间，也是断断续续弄了好久，先是买了云服务器，
-买了域名，后面又弄了各种博客模板，删删改改，想弄成自己想要的样子，但最后还是删掉了，不想用模板，还是想自己动手从0到1。
-直到2020年初，在MAC上装好了各种环境，终于开篇了，终于在自己DIY的博客上写下了这第一篇文章《BlackHe开篇博客，用文字记录生活》。
-万事开头难，既然入局了，就坚持下去。
-就像巴菲特一样，做一个长期坚持的价值投资者。用时间作为武器，坐收复利。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html&quot;&gt;高可用mysql(二)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;java&quot;&gt;java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html&quot;&gt;jave concurrent&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;我写博客的目的&quot;&gt;我写博客的目的&lt;/h4&gt;
-
 &lt;ul&gt;
   &lt;li&gt;梳理知识体系，烂笔头践行者&lt;/li&gt;
   &lt;li&gt;通过一些文笔，使自己更加专业&lt;/li&gt;
   &lt;li&gt;提升自我认知，开源分享更美好&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">BlackHe开篇博客，用文字记录生活</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">mysql</summary></entry><entry><title type="html">高可用mysql(一)</title><link href="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html" rel="alternate" type="text/html" title="高可用mysql(一)" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80)</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html">&lt;h2 id=&quot;高可用mysql一&quot;&gt;高可用mysql(一)&lt;/h2&gt;</content><author><name></name></author><summary type="html">高可用mysql(一)</summary></entry></feed>

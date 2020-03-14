@@ -2,7 +2,7 @@
 title: BlackHe
 email: gblack.he@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  老何的博客，专注于分享技术.
+  black的博客，专注于分享技术.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BlackHe
