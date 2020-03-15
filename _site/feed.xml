@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T07:47:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>老何的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-15T00:00:00+08:00</published><updated>2020-03-15T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html">&lt;h3 id=&quot;mysql&quot;&gt;mysql&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T08:46:04+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-15T00:00:00+08:00</published><updated>2020-03-15T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html">&lt;h3 id=&quot;mysql&quot;&gt;mysql&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html&quot;&gt;高可用mysql(一)&lt;/a&gt;&lt;/p&gt;
 
@@ -13,4 +13,18 @@
   &lt;li&gt;梳理知识体系，烂笔头践行者&lt;/li&gt;
   &lt;li&gt;通过一些文笔，使自己更加专业&lt;/li&gt;
   &lt;li&gt;提升自我认知，开源分享更美好&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">mysql</summary></entry><entry><title type="html">高可用mysql(一)</title><link href="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html" rel="alternate" type="text/html" title="高可用mysql(一)" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80)</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html">&lt;h2 id=&quot;高可用mysql一&quot;&gt;高可用mysql(一)&lt;/h2&gt;</content><author><name></name></author><summary type="html">高可用mysql(一)</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">mysql</summary></entry><entry><title type="html">高可用mysql(一)</title><link href="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html" rel="alternate" type="text/html" title="高可用mysql(一)" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80)</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql(%E4%B8%80).html">&lt;h3 id=&quot;1-可用性&quot;&gt;1. 可用性&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    讲高可用前，我们先定义一下可用性：即服务器能正常稳如一匹老马般的提供服务。
+反之，大到自然灾害，数据中心掉电，服务器宕机，网络瘫痪，磁盘爆满。小到数据库死锁，alter语句锁
+全表，糟糕的查询语句压死数据库等。这些情况平时很少发生，可一旦发生，在修复及预热前那段时间，mysql
+是不可用的。针对这种情况，你是否想过怎么处理？如果是在可用性要求非常高的领域，这可能是致命的。归根
+结底，高可用意味着”更少的宕机时间“。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-防患未燃&quot;&gt;2. 防患未燃&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    使用这个词可能会使你记住这一页的内容，标新立异嘛。先发制人通常可以一招制敌。解决一个麻烦最
+好的办法，就是别让这个麻烦发生。而且，别让这个麻烦发生的成本，会比发生后，解决麻烦和它本身带来的
+成本低不止一个数量级。所以，从需求及设计阶段开始，就将系统（不止mysql）的可用性考虑进去吧。为了
+从99到99999而努力吧。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">1. 可用性</summary></entry></feed>
