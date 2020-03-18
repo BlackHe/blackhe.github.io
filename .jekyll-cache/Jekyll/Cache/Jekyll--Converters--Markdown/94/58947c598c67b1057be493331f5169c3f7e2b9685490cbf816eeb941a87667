@@ -1,0 +1,81 @@
+I"�<h2 id="mysql">mysql</h2>
+
+<style>
+ .indexClass{
+    /* display: inline-block;
+    width: auto; 
+    height: auto;
+    background-color:#6F7691;
+    border-radius: 4px;
+    font-family: -webkit-body;
+    cursor:pointer;
+    color:#ECEDF0;
+    margin:3px; */
+
+    width: 100px;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+ }
+</style>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"> mysql架构 </div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">mysql存储引擎</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">innodb索引机制</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">innodb特性</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')">高可用mysql_可用性</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">高可用mysql_复制</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">高可用mysql_备份</div>
+
+<div class="indexClass" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')">高可用mysql_监控</div>
+
+<h3 id="java">java</h3>
+
+<p><a href="">jave concurrent</a></p>
+
+<h3 id="jvm">jvm</h3>
+
+<h3 id="spring">spring</h3>
+
+<h3 id="springboot">springboot</h3>
+
+<h3 id="springcloud">springcloud</h3>
+
+<h3 id="kafka">kafka</h3>
+
+<h3 id="dubbo">dubbo</h3>
+
+<h3 id="mybatis">mybatis</h3>
+
+<h3 id="redis">redis</h3>
+
+<h3 id="zookeeper">zookeeper</h3>
+
+<h3 id="netty">netty</h3>
+
+<h3 id="nginx">nginx</h3>
+
+<h3 id="hdfs">HDFS</h3>
+
+<h3 id="elk">ELK</h3>
+
+<h3 id="storm">storm</h3>
+
+<h3 id="elastic-search">elastic search</h3>
+
+<h3 id="jekins">jekins</h3>
+
+:ET

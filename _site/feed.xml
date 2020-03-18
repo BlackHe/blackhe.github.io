@@ -1,27 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-15T22:38:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-15T00:00:00+08:00</published><updated>2020-03-15T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/15/%E7%9B%AE%E5%BD%95.html">&lt;h2 id=&quot;mysql&quot;&gt;mysql&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-18T23:08:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-18T00:00:00+08:00</published><updated>2020-03-18T00:00:00+08:00</updated><id>http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html">&lt;style&gt;
+ .indexTag{
+    display: inline-block;
+    width:auto;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin:3px;
+    padding:3px;
+    cursor:pointer;
+ }
 
-&lt;h4 id=&quot;mysql架构&quot;&gt;mysql架构&lt;/h4&gt;
+&lt;/style&gt;
 
-&lt;h4 id=&quot;mysql存储引擎&quot;&gt;mysql存储引擎&lt;/h4&gt;
+&lt;h2 align=&quot;center&quot;&gt;mysql&lt;/h2&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt; &lt;font&gt; mysql架构 &lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;mysql存储引擎&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;innodb索引机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;innodb特性&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')&quot;&gt;&lt;font&gt;高可用mysql_可用性&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_复制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_备份&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_监控&lt;/font&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;innodb索引机制&quot;&gt;innodb索引机制&lt;/h4&gt;
+&lt;h2 align=&quot;center&quot;&gt;java&lt;/h2&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;concurrent&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;java 8&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;集合类源码&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;核心类源码&lt;/font&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;innodb特性&quot;&gt;innodb特性&lt;/h4&gt;
+&lt;h2 align=&quot;center&quot;&gt;jvm&lt;/h2&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;类加载机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;内存模型&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;运行时内存区域&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;垃圾回收机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;垃圾回收器&lt;/font&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;高可用mysql&quot;&gt;高可用mysql&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html&quot;&gt;高可用mysql_可用性&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;高可用mysql_复制&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;高可用mysql_备份&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;高可用mysql_监控&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;java&quot;&gt;java&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;jave concurrent&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;jvm&quot;&gt;jvm&lt;/h3&gt;
-
-&lt;h3 id=&quot;spring&quot;&gt;spring&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;spring&lt;/h2&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring官方文档&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;IOC/AOP&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring启动过程&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;bean注入过程&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;循环依赖&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring事物&lt;/font&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;springboot&quot;&gt;springboot&lt;/h3&gt;
 
@@ -49,7 +76,7 @@
 
 &lt;h3 id=&quot;elastic-search&quot;&gt;elastic search&lt;/h3&gt;
 
-&lt;h3 id=&quot;jekins&quot;&gt;jekins&lt;/h3&gt;</content><author><name></name></author><summary type="html">mysql</summary></entry><entry><title type="html">高可用mysql-可用性</title><link href="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html" rel="alternate" type="text/html" title="高可用mysql-可用性" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html">&lt;p&gt;&lt;img src=&quot;http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJlbKziGIMPsKADQ_w9jg3uoAALJHwF8MuAAND_b114.jpg&quot; alt=&quot;avatar&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;jekins&quot;&gt;jekins&lt;/h3&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">高可用mysql-可用性</title><link href="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html" rel="alternate" type="text/html" title="高可用mysql-可用性" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7</id><content type="html" xml:base="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html">&lt;p&gt;&lt;img src=&quot;http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJlbKziGIMPsKADQ_w9jg3uoAALJHwF8MuAAND_b114.jpg&quot; alt=&quot;avatar&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;h3 id=&quot;1-可用性&quot;&gt;1. 可用性&lt;/h3&gt;
@@ -108,4 +135,4 @@
 2.避免单点失效，部署集群系统，并设计切换方案（一主多备，两主多备）
 3.故障演练，提高人员素质，有计划的从宕机时间中恢复
 4.事后评估，记录，载入故障库，以优化未来的系统架构
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">mysql架构</title><link href="http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html" rel="alternate" type="text/html" title="mysql架构" /><published>2019-12-01T08:00:00+08:00</published><updated>2019-12-01T08:00:00+08:00</updated><id>http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84</id><content type="html" xml:base="http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html"></content><author><name></name></author><summary type="html"></summary></entry></feed>
