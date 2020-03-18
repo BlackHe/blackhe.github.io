@@ -28,7 +28,7 @@ categories: index
 </style>
 
 
-<h2 align = center >mysql</h2>
+<h2 align = 'center' >mysql</h2>
 <div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"> <font> mysql架构 </font></div>
 <div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>mysql存储引擎</font></div>
 <div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>innodb索引机制</font></div>
