@@ -1,0 +1,24 @@
+I"”<style>
+ .it{
+    display: inline-block;
+    width:auto;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin:5px;
+    padding:3px;
+    cursor:pointer;
+ }
+ .ts{
+    margin-bottom:30px;
+ }
+</style>
+
+:ET

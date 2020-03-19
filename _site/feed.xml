@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-18T23:11:03+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-18T00:00:00+08:00</published><updated>2020-03-18T00:00:00+08:00</updated><id>http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html">&lt;style&gt;
- .indexTag{
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-19T22:16:27+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black的博客，专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-18T00:00:00+08:00</published><updated>2020-03-18T00:00:00+08:00</updated><id>http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html">&lt;style&gt;
+ .it{
     display: inline-block;
     width:auto;
     height: auto;
@@ -12,71 +12,260 @@
     *border-bottom: 0;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    margin:3px;
+    margin:5px;
     padding:3px;
     cursor:pointer;
+ }
+ .ts{
+    margin-bottom:30px;
  }
 
 &lt;/style&gt;
 
-&lt;h2 align=&quot;center&quot;&gt;mysql&lt;/h2&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt; &lt;font&gt; mysql架构 &lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;mysql存储引擎&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;innodb索引机制&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;innodb特性&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')&quot;&gt;&lt;font&gt;高可用mysql_可用性&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_复制&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_备份&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;高可用mysql_监控&lt;/font&gt;&lt;/div&gt;
-
 &lt;h2 align=&quot;center&quot;&gt;java&lt;/h2&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;concurrent&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;java 8&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;集合类源码&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;核心类源码&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;线程基础&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;NIO&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;concurrent&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;java 8&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;集合类源码&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;核心类源码&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
 &lt;h2 align=&quot;center&quot;&gt;jvm&lt;/h2&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;类加载机制&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;内存模型&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;运行时内存区域&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;垃圾回收机制&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;垃圾回收器&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;类加载机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;字节码分析&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;内存模型&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;运行时内存区域&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;垃圾回收机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;垃圾回收器&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;高效并发&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;mysql&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt; &lt;font&gt; mysql架构 &lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;存储引擎&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;innodb索引机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;B+Tree&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;查询优化&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;innodb特性&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')&quot;&gt;
+&lt;font&gt;高可用mysql&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;分库分表&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;mycat/读写分离&lt;/font&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;mybatis&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt; &lt;font&gt; mybatis初始化 &lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt; &lt;font&gt; mybatis-spring整合 &lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;执行查询/动态代理(核心)&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;一级缓存/二级缓存&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;参数映射&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;事物传递&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;返回值映射&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;mybatis巧用设计模式&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
 &lt;h2 align=&quot;center&quot;&gt;spring&lt;/h2&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring官方文档&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;IOC/AOP&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring启动过程&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;bean注入过程&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;循环依赖&lt;/font&gt;&lt;/div&gt;
-&lt;div class=&quot;indexTag&quot; onclick=&quot;window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')&quot;&gt;&lt;font&gt;spring事物&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;官方文档&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;IOC/AOP&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;spring启动过程&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;bean注入过程&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;循环依赖&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;spring事物&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;springboot&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;springcloud&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;springboot&quot;&gt;springboot&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;springcloud&quot;&gt;springcloud&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;design pattern&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;设计原则&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;工厂方法/抽象工厂&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;模板方法&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;适配器&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;装饰器&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;代理模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;构建模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;策略模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;责任链模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;状态模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;组合模式&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;观察者模式&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;kafka&quot;&gt;kafka&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;dubbo&quot;&gt;dubbo&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;dubbo&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;dubbo配置解析&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;注册/发现机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;网络传输&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;序列化&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;反射调用&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;mybatis&quot;&gt;mybatis&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;redis&quot;&gt;redis&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;redis&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;redis数据类型&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;缓存淘汰机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;持久化机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;缓存击穿/缓存穿透/缓存雪崩&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;redis快的原因&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;网络协议&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;redis集群&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;哨兵架构&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;主从复制原理&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;原子性命令/分布式锁&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;zookeeper&quot;&gt;zookeeper&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;netty&quot;&gt;netty&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;mongoDB&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;mongDB入门&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;应用场景&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;常用命令&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;nginx&quot;&gt;nginx&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;hdfs&quot;&gt;HDFS&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;zookeeper&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;zookeeper集群搭建&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;模拟故障/选主机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;持久化机制&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;CAP理论/CP&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;elk&quot;&gt;ELK&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;storm&quot;&gt;storm&lt;/h3&gt;
+&lt;h2 align=&quot;center&quot;&gt;netty&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;netty入门&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;IO/NIO&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;事件驱动&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;线程模型&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;七层网络协议&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;多路复用&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;bytebuffer&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;channel&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;粘包/拆包&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;elastic-search&quot;&gt;elastic search&lt;/h3&gt;
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;jekins&quot;&gt;jekins&lt;/h3&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">高可用mysql-可用性</title><link href="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html" rel="alternate" type="text/html" title="高可用mysql-可用性" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7</id><content type="html" xml:base="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html">&lt;p&gt;&lt;img src=&quot;http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJlbKziGIMPsKADQ_w9jg3uoAALJHwF8MuAAND_b114.jpg&quot; alt=&quot;avatar&quot; /&gt;&lt;/p&gt;
+&lt;h2 align=&quot;center&quot;&gt;nginx&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;路由配置&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;静态资源服务器&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;https配置&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;access日志&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;入口网关&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;kafka&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;主题/分区&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;副本机制/isr&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;集群配置&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;日志/索引&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;生产者&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;消费者&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;避免重复消费(精准一次)&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;kafka网络传输&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;kafka性能高的原因&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;分布式理论&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;CAP&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;BASE&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;拜占庭将军问题&lt;/font&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;架构设计&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;架构入门&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;领域驱动设计(DDD)&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;领域&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;统一语言&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;实体&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;值对象&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;聚合&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;docker&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;docker入门&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;镜像打包&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;启动镜像&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;kubernetes&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;k8入门&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;node&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;pod&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;jekins&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;jekins入门&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;任务配置&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;CI/CD&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;linux&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;线程相关&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;日志查询&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;端口相关&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;搜索&lt;/font&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;区块链&lt;/h2&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;区块链基础&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;BTC&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;ETH&lt;/font&gt;&lt;/div&gt;
+&lt;div class=&quot;it&quot; onclick=&quot;window.open('')&quot;&gt;&lt;font&gt;java接入链&lt;/font&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;HDFS&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;ELK&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;
+
+&lt;h2 align=&quot;center&quot;&gt;storm&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;ts&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">高可用mysql-可用性</title><link href="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html" rel="alternate" type="text/html" title="高可用mysql-可用性" /><published>2020-01-18T14:00:00+08:00</published><updated>2020-01-18T14:00:00+08:00</updated><id>http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7</id><content type="html" xml:base="http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html">&lt;p&gt;&lt;img src=&quot;http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJlbKziGIMPsKADQ_w9jg3uoAALJHwF8MuAAND_b114.jpg&quot; alt=&quot;avatar&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;h3 id=&quot;1-可用性&quot;&gt;1. 可用性&lt;/h3&gt;

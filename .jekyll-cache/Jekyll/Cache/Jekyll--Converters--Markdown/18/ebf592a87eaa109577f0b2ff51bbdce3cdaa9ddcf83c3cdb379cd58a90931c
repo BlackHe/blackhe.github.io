@@ -1,0 +1,257 @@
+I"i)<style>
+ .it{
+    display: inline-block;
+    width:auto;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin:5px;
+    padding:3px;
+    cursor:pointer;
+ }
+ .ts{
+    margin-bottom:30px;
+ }
+
+</style>
+
+<h2 align="center">java</h2>
+<div class="it" onclick="window.open('')"><font>线程基础</font></div>
+<div class="it" onclick="window.open('')"><font>NIO</font></div>
+<div class="it" onclick="window.open('')"><font>concurrent</font></div>
+<div class="it" onclick="window.open('')"><font>java 8</font></div>
+<div class="it" onclick="window.open('')"><font>集合类源码</font></div>
+<div class="it" onclick="window.open('')"><font>核心类源码</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">jvm</h2>
+<div class="it" onclick="window.open('')"><font>类加载机制</font></div>
+<div class="it" onclick="window.open('')"><font>字节码分析</font></div>
+<div class="it" onclick="window.open('')"><font>内存模型</font></div>
+<div class="it" onclick="window.open('')"><font>运行时内存区域</font></div>
+<div class="it" onclick="window.open('')"><font>垃圾回收机制</font></div>
+<div class="it" onclick="window.open('')"><font>垃圾回收器</font></div>
+<div class="it" onclick="window.open('')"><font>高效并发</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">mysql</h2>
+<div class="it" onclick="window.open('')"> <font> mysql架构 </font></div>
+<div class="it" onclick="window.open('')"><font>存储引擎</font></div>
+<div class="it" onclick="window.open('')"><font>innodb索引机制</font></div>
+<div class="it" onclick="window.open('')"><font>B+Tree</font></div>
+<div class="it" onclick="window.open('')"><font>查询优化</font></div>
+<div class="it" onclick="window.open('')"><font>innodb特性</font></div>
+<div class="it" onclick="window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')">
+<font>高可用mysql</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">mybatis</h2>
+<div class="it" onclick="window.open('')"> <font> mybatis初始化 </font></div>
+<div class="it" onclick="window.open('')"> <font> mybatis-spring整合 </font></div>
+<div class="it" onclick="window.open('')"><font>执行查询/动态代理(核心)</font></div>
+<div class="it" onclick="window.open('')"><font>一级缓存/二级缓存</font></div>
+<div class="it" onclick="window.open('')"><font>参数映射</font></div>
+<div class="it" onclick="window.open('')"><font>事物传递</font></div>
+<div class="it" onclick="window.open('')"><font>返回值映射</font></div>
+<div class="it" onclick="window.open('')"><font>mybatis巧用设计模式</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">spring</h2>
+<div class="it" onclick="window.open('')"><font>官方文档</font></div>
+<div class="it" onclick="window.open('')"><font>IOC/AOP</font></div>
+<div class="it" onclick="window.open('')"><font>spring启动过程</font></div>
+<div class="it" onclick="window.open('')"><font>bean注入过程</font></div>
+<div class="it" onclick="window.open('')"><font>循环依赖</font></div>
+<div class="it" onclick="window.open('')"><font>spring事物</font></div>
+<div class="it" onclick="window.open('')"><font>springboot</font></div>
+<div class="it" onclick="window.open('')"><font>springcloud</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">design pattern</h2>
+<div class="it" onclick="window.open('')"><font>设计原则</font></div>
+<div class="it" onclick="window.open('')"><font>工厂方法/抽象工厂</font></div>
+<div class="it" onclick="window.open('')"><font>模板方法</font></div>
+<div class="it" onclick="window.open('')"><font>适配器</font></div>
+<div class="it" onclick="window.open('')"><font>装饰器</font></div>
+<div class="it" onclick="window.open('')"><font>代理模式</font></div>
+<div class="it" onclick="window.open('')"><font>构建模式</font></div>
+<div class="it" onclick="window.open('')"><font>策略模式</font></div>
+<div class="it" onclick="window.open('')"><font>责任链模式</font></div>
+<div class="it" onclick="window.open('')"><font>状态模式</font></div>
+<div class="it" onclick="window.open('')"><font>组合模式</font></div>
+<div class="it" onclick="window.open('')"><font>观察者模式</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">dubbo</h2>
+<div class="it" onclick="window.open('')"><font>dubbo配置解析</font></div>
+<div class="it" onclick="window.open('')"><font>注册/发现机制</font></div>
+<div class="it" onclick="window.open('')"><font>网络传输</font></div>
+<div class="it" onclick="window.open('')"><font>序列化</font></div>
+<div class="it" onclick="window.open('')"><font>反射调用</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">redis</h2>
+<div class="it" onclick="window.open('')"><font>redis数据类型</font></div>
+<div class="it" onclick="window.open('')"><font>缓存淘汰机制</font></div>
+<div class="it" onclick="window.open('')"><font>持久化机制</font></div>
+<div class="it" onclick="window.open('')"><font>缓存击穿/缓存穿透/缓存雪崩</font></div>
+<div class="it" onclick="window.open('')"><font>redis快的原因</font></div>
+<div class="it" onclick="window.open('')"><font>网络协议</font></div>
+<div class="it" onclick="window.open('')"><font>redis集群/哨兵</font></div>
+<div class="it" onclick="window.open('')"><font>原子性命令/分布式锁</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">zookeeper</h2>
+<div class="it" onclick="window.open('')"><font>zookeeper集群搭建</font></div>
+<div class="it" onclick="window.open('')"><font>模拟故障/选主机制</font></div>
+<div class="it" onclick="window.open('')"><font>持久化机制</font></div>
+<div class="it" onclick="window.open('')"><font>CAP理论/CP</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">netty</h2>
+<div class="it" onclick="window.open('')"><font>netty入门</font></div>
+<div class="it" onclick="window.open('')"><font>IO/NIO</font></div>
+<div class="it" onclick="window.open('')"><font>事件驱动</font></div>
+<div class="it" onclick="window.open('')"><font>线程模型</font></div>
+<div class="it" onclick="window.open('')"><font>七层网络协议</font></div>
+<div class="it" onclick="window.open('')"><font>多路复用</font></div>
+<div class="it" onclick="window.open('')"><font>bytebuffer</font></div>
+<div class="it" onclick="window.open('')"><font>channel</font></div>
+<div class="it" onclick="window.open('')"><font>粘包/拆包</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">nginx</h2>
+<div class="it" onclick="window.open('')"><font>路由配置</font></div>
+<div class="it" onclick="window.open('')"><font>静态资源服务器</font></div>
+<div class="it" onclick="window.open('')"><font>https配置</font></div>
+<div class="it" onclick="window.open('')"><font>access日志</font></div>
+<div class="it" onclick="window.open('')"><font>入口网关</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">kafka</h2>
+<div class="it" onclick="window.open('')"><font>主题/分区</font></div>
+<div class="it" onclick="window.open('')"><font>副本机制/isr</font></div>
+<div class="it" onclick="window.open('')"><font>集群配置</font></div>
+<div class="it" onclick="window.open('')"><font>日志/索引</font></div>
+<div class="it" onclick="window.open('')"><font>生产者</font></div>
+<div class="it" onclick="window.open('')"><font>消费者</font></div>
+<div class="it" onclick="window.open('')"><font>避免重复消费(精准一次)</font></div>
+<div class="it" onclick="window.open('')"><font>kafka网络传输</font></div>
+<div class="it" onclick="window.open('')"><font>kafka性能高的原因</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">分布式理论</h2>
+<div class="it" onclick="window.open('')"><font>CAP</font></div>
+<div class="it" onclick="window.open('')"><font>BASE</font></div>
+<div class="it" onclick="window.open('')"><font>拜占庭将军问题</font></div>
+
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">架构设计</h2>
+<div class="it" onclick="window.open('')"><font>架构入门</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">领域驱动设计(DDD)</h2>
+<div class="it" onclick="window.open('')"><font>领域</font></div>
+<div class="it" onclick="window.open('')"><font>统一语言</font></div>
+<div class="it" onclick="window.open('')"><font>实体</font></div>
+<div class="it" onclick="window.open('')"><font>值对象</font></div>
+<div class="it" onclick="window.open('')"><font>聚合</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">docker</h2>
+<div class="it" onclick="window.open('')"><font>docker入门</font></div>
+<div class="it" onclick="window.open('')"><font>镜像打包</font></div>
+<div class="it" onclick="window.open('')"><font>启动镜像</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">kubernetes</h2>
+<div class="it" onclick="window.open('')"><font>k8入门</font></div>
+<div class="it" onclick="window.open('')"><font>任务配置</font></div>
+<div class="it" onclick="window.open('')"><font>CI/CD</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">jekins</h2>
+<div class="it" onclick="window.open('')"><font>jekins入门</font></div>
+<div class="it" onclick="window.open('')"><font>任务配置</font></div>
+<div class="it" onclick="window.open('')"><font>CI/CD</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">linux</h2>
+<div class="it" onclick="window.open('')"><font>线程相关</font></div>
+<div class="it" onclick="window.open('')"><font>日志查询</font></div>
+<div class="it" onclick="window.open('')"><font>端口相关</font></div>
+<div class="it" onclick="window.open('')"><font>搜索</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">区块链</h2>
+<div class="it" onclick="window.open('')"><font>区块链基础</font></div>
+<div class="it" onclick="window.open('')"><font>BTC</font></div>
+<div class="it" onclick="window.open('')"><font>ETH</font></div>
+<div class="it" onclick="window.open('')"><font>java接入链</font></div>
+
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">HDFS</h2>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">ELK</h2>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">storm</h2>
+<hr />
+
+<div class="ts"></div>
+
+:ET

@@ -1,0 +1,23 @@
+I"¡<style>
+ .indexTag{
+    display: inline-block;
+    width:auto;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin:3px;
+    padding:3px;
+    cursor:pointer;
+ }
+ .titleSplit{
+    margin-bottom:30px;
+ }
+</style>
+:ET

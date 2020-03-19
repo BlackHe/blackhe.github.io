@@ -1,0 +1,109 @@
+I"s<style>
+ .indexTag{
+    display: inline-block;
+    width:auto;
+    height: auto;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin:3px;
+    padding:3px;
+    cursor:pointer;
+ }
+ .titleSplit{
+    margin-bottom:30px;
+ }
+
+</style>
+
+<h2 align="center">mysql</h2>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"> <font> mysql架构 </font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>mysql存储引擎</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>innodb索引机制</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>查询优化</font></div>
+
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>innodb特性</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')"><font>高可用mysql_可用性</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>高可用mysql_复制</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>高可用mysql_备份</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>高可用mysql_监控</font></div>
+<hr />
+
+<div class="titleSplit"></div>
+
+<h2 align="center">java</h2>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>concurrent</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>java 8</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>集合类源码</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>核心类源码</font></div>
+<hr />
+
+<div class="titleSplit"></div>
+
+<h2 align="center">jvm</h2>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>类加载机制</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>内存模型</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>运行时内存区域</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>垃圾回收机制</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>垃圾回收器</font></div>
+<hr />
+
+<div class="titleSplit"></div>
+
+<h2 align="center">spring</h2>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>spring官方文档</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>IOC/AOP</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>spring启动过程</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>bean注入过程</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>循环依赖</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>spring事物</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>springboot官方文档</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>springboot启动原理</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>springboot监控</font></div>
+<hr />
+
+<div class="titleSplit"></div>
+
+<h2 align="center">kafka</h2>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>主题/分区</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>副本/isr</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>集群配置</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>日志/索引</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>生产者</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>消费者</font></div>
+<div class="indexTag" onclick="window.open('http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html')"><font>避免重复消费</font></div>
+<hr />
+
+<div class="titleSplit"></div>
+
+<h3 id="kafka">kafka</h3>
+
+<h3 id="dubbo">dubbo</h3>
+
+<h3 id="mybatis">mybatis</h3>
+
+<h3 id="redis">redis</h3>
+
+<h3 id="zookeeper">zookeeper</h3>
+
+<h3 id="netty">netty</h3>
+
+<h3 id="nginx">nginx</h3>
+
+<h3 id="hdfs">HDFS</h3>
+
+<h3 id="elk">ELK</h3>
+
+<h3 id="storm">storm</h3>
+
+<h3 id="elastic-search">elastic search</h3>
+
+<h3 id="jekins">jekins</h3>
+
+:ET
