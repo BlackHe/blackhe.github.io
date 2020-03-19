@@ -1,4 +1,4 @@
-I"�#<style>
+I"�+<style>
  .it{
     display: inline-block;
     width:auto;
@@ -24,6 +24,7 @@
 
 <h2 align="center">java</h2>
 <div class="it" onclick="window.open('')"><font>线程基础</font></div>
+<div class="it" onclick="window.open('')"><font>NIO</font></div>
 <div class="it" onclick="window.open('')"><font>concurrent</font></div>
 <div class="it" onclick="window.open('')"><font>java 8</font></div>
 <div class="it" onclick="window.open('')"><font>集合类源码</font></div>
@@ -34,10 +35,12 @@
 
 <h2 align="center">jvm</h2>
 <div class="it" onclick="window.open('')"><font>类加载机制</font></div>
+<div class="it" onclick="window.open('')"><font>字节码分析</font></div>
 <div class="it" onclick="window.open('')"><font>内存模型</font></div>
 <div class="it" onclick="window.open('')"><font>运行时内存区域</font></div>
 <div class="it" onclick="window.open('')"><font>垃圾回收机制</font></div>
 <div class="it" onclick="window.open('')"><font>垃圾回收器</font></div>
+<div class="it" onclick="window.open('')"><font>高效并发</font></div>
 <hr />
 
 <div class="ts"></div>
@@ -49,8 +52,11 @@
 <div class="it" onclick="window.open('')"><font>B+Tree</font></div>
 <div class="it" onclick="window.open('')"><font>查询优化</font></div>
 <div class="it" onclick="window.open('')"><font>innodb特性</font></div>
-<div class="it" onclick="window.open('http://localhost:4000/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')">
+<div class="it" onclick="window.open('https://blackhe.github.io/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')">
 <font>高可用mysql</font></div>
+<div class="it" onclick="window.open('')"><font>分库分表</font></div>
+<div class="it" onclick="window.open('')"><font>mycat/读写分离</font></div>
+
 <hr />
 
 <div class="ts"></div>
@@ -115,8 +121,18 @@
 <div class="it" onclick="window.open('')"><font>缓存击穿/缓存穿透/缓存雪崩</font></div>
 <div class="it" onclick="window.open('')"><font>redis快的原因</font></div>
 <div class="it" onclick="window.open('')"><font>网络协议</font></div>
-<div class="it" onclick="window.open('')"><font>redis集群/哨兵</font></div>
+<div class="it" onclick="window.open('')"><font>redis集群</font></div>
+<div class="it" onclick="window.open('')"><font>哨兵架构</font></div>
+<div class="it" onclick="window.open('')"><font>主从复制原理</font></div>
 <div class="it" onclick="window.open('')"><font>原子性命令/分布式锁</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">mongoDB</h2>
+<div class="it" onclick="window.open('')"><font>mongDB入门</font></div>
+<div class="it" onclick="window.open('')"><font>应用场景</font></div>
+<div class="it" onclick="window.open('')"><font>常用命令</font></div>
 <hr />
 
 <div class="ts"></div>
@@ -168,14 +184,43 @@
 
 <div class="ts"></div>
 
+<h2 align="center">分布式理论</h2>
+<div class="it" onclick="window.open('')"><font>CAP</font></div>
+<div class="it" onclick="window.open('')"><font>BASE</font></div>
+<div class="it" onclick="window.open('')"><font>拜占庭将军问题</font></div>
+
+<hr />
+
+<div class="ts"></div>
+
 <h2 align="center">架构设计</h2>
 <div class="it" onclick="window.open('')"><font>架构入门</font></div>
 <hr />
 
 <div class="ts"></div>
 
-<h2 align="center">领域驱动设计</h2>
+<h2 align="center">领域驱动设计(DDD)</h2>
+<div class="it" onclick="window.open('')"><font>领域</font></div>
+<div class="it" onclick="window.open('')"><font>统一语言</font></div>
 <div class="it" onclick="window.open('')"><font>实体</font></div>
+<div class="it" onclick="window.open('')"><font>值对象</font></div>
+<div class="it" onclick="window.open('')"><font>聚合</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">docker</h2>
+<div class="it" onclick="window.open('')"><font>docker入门</font></div>
+<div class="it" onclick="window.open('')"><font>镜像打包</font></div>
+<div class="it" onclick="window.open('')"><font>启动镜像</font></div>
+<hr />
+
+<div class="ts"></div>
+
+<h2 align="center">kubernetes</h2>
+<div class="it" onclick="window.open('')"><font>k8入门</font></div>
+<div class="it" onclick="window.open('')"><font>node</font></div>
+<div class="it" onclick="window.open('')"><font>pod</font></div>
 <hr />
 
 <div class="ts"></div>
@@ -199,7 +244,10 @@
 
 <h2 align="center">区块链</h2>
 <div class="it" onclick="window.open('')"><font>区块链基础</font></div>
-<div class="it" onclick="window.open('')"><font>数字资产(coin)</font></div>
+<div class="it" onclick="window.open('')"><font>BTC</font></div>
+<div class="it" onclick="window.open('')"><font>ETH</font></div>
+<div class="it" onclick="window.open('')"><font>java接入链</font></div>
+
 <hr />
 
 <div class="ts"></div>
