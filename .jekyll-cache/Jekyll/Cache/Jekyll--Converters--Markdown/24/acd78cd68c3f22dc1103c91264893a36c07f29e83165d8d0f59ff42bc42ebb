@@ -1,4 +1,4 @@
-I"�+<style>
+I"�-<style>
  .it{
     display: inline-block;
     width:auto;
@@ -50,10 +50,12 @@
 <div class="it" onclick="window.open('')"><font>存储引擎</font></div>
 <div class="it" onclick="window.open('')"><font>innodb索引机制</font></div>
 <div class="it" onclick="window.open('')"><font>B+Tree</font></div>
+<div class="it" onclick="window.open('')"><font>查询计划</font></div>
 <div class="it" onclick="window.open('')"><font>查询优化</font></div>
 <div class="it" onclick="window.open('')"><font>innodb特性</font></div>
 <div class="it" onclick="window.open('https://blackhe.github.io/mysql/2020/01/18/%E9%AB%98%E5%8F%AF%E7%94%A8mysql_%E5%8F%AF%E7%94%A8%E6%80%A7.html')">
 <font>高可用mysql</font></div>
+<div class="it" onclick="window.open('')"><font>锁/MVCC</font></div>
 <div class="it" onclick="window.open('')"><font>分库分表</font></div>
 <div class="it" onclick="window.open('')"><font>mycat/读写分离</font></div>
 
@@ -107,6 +109,10 @@
 <h2 align="center">dubbo</h2>
 <div class="it" onclick="window.open('')"><font>dubbo配置解析</font></div>
 <div class="it" onclick="window.open('')"><font>注册/发现机制</font></div>
+<div class="it" onclick="window.open('')"><font>SPI机制</font></div>
+<div class="it" onclick="window.open('')"><font>负载均衡</font></div>
+<div class="it" onclick="window.open('')"><font>服务降级原理</font></div>
+
 <div class="it" onclick="window.open('')"><font>网络传输</font></div>
 <div class="it" onclick="window.open('')"><font>序列化</font></div>
 <div class="it" onclick="window.open('')"><font>反射调用</font></div>
@@ -138,6 +144,8 @@
 <div class="ts"></div>
 
 <h2 align="center">zookeeper</h2>
+<div class="it" onclick="window.open('')"><font>节点</font></div>
+<div class="it" onclick="window.open('')"><font>watcher机制</font></div>
 <div class="it" onclick="window.open('')"><font>zookeeper集群搭建</font></div>
 <div class="it" onclick="window.open('')"><font>模拟故障/选主机制</font></div>
 <div class="it" onclick="window.open('')"><font>持久化机制</font></div>
@@ -262,7 +270,7 @@
 
 <div class="ts"></div>
 
-<h2 align="center">storm</h2>
+<h2 align="center">service mash</h2>
 <hr />
 
 <div class="ts"></div>
