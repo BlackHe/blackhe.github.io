@@ -1,4 +1,4 @@
-I"<p>浏览量: <span class="leancloud_visitors" data-flag-title=""> - </span>次.</p>
+I"<p>浏览量: <span class="leancloud_visitors" data-flag-title=""> - </span>次.</p>
 
 <!-- 同时兼容http与https -->
 <script src="//cdn1.lncld.net/static/js/2.5.0/av-min.js"></script>
@@ -79,10 +79,10 @@
         console.log('query error:'+error.message);
       });
     }
-    $(function() {
+
       var Counter = AV.Object.extend(name);
       showCount(Counter);
-    });
+
 </script>
 
 :ET

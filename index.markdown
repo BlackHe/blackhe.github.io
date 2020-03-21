@@ -85,8 +85,8 @@ layout: home
         console.log('query error:'+error.message);
       });
     }
-    $(function() {
+
       var Counter = AV.Object.extend(name);
       showCount(Counter);
-    });
+
 </script>
