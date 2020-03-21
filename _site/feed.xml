@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-21T20:13:33+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black|专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-18T00:00:00+08:00</published><updated>2020-03-18T00:00:00+08:00</updated><id>http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-21T23:12:22+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BlackHe</title><subtitle>black|专注于分享技术.</subtitle><entry><title type="html">目录</title><link href="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html" rel="alternate" type="text/html" title="目录" /><published>2020-03-18T00:00:00+08:00</published><updated>2020-03-18T00:00:00+08:00</updated><id>http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95</id><content type="html" xml:base="http://localhost:4000/index/2020/03/18/%E7%9B%AE%E5%BD%95.html">&lt;style&gt;
  .it{
     display: inline-block;
     width:auto;
@@ -281,11 +281,12 @@
   &lt;h3 id=&quot;1-可用性&quot;&gt;1. 可用性&lt;/h3&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    讲高可用前，我们先定义一下可用性：即服务器能正常稳如一匹老马般的提供服务。
-反之，大到自然灾害，数据中心掉电，服务器宕机，网络瘫痪，磁盘爆满。小到数据库死锁，alter语句锁
-全表，糟糕的查询语句压死数据库等。这些情况平时很少发生，可一旦发生，在修复及预热前那段时间，mysql
-是不可用的。针对这种情况，你是否想过怎么处理？如果是在可用性要求非常高的领域，这可能是致命的。归根
-结底，高可用意味着”更少的宕机时间“。
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    讲高可用前，我们先定义一下可用性：即服务器能正常稳定的提供服务。反之，如果不能正常提供服务，
+就是不可用了。
+    大到自然灾害，数据中心掉电，服务器宕机，网络瘫痪，磁盘爆满。小到数据库死锁，alter语句锁
+全表，糟糕的查询语句压死数据库，程序员删库跑路等。这些情况平时很少发生，可一旦发生，在修复及预
+热前那段时间，mysql是不可用的。针对这种情况，你是否想过怎么处理？如果是在可用性要求非常高的领
+域，这可能是致命的。归根结底，高可用意味着更多的服务时间，更少的宕机时间，更快的恢复速度。
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
@@ -302,17 +303,20 @@
   &lt;h3 id=&quot;3-如何实现高可用&quot;&gt;3. 如何实现高可用&lt;/h3&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;一、降低宕机时间，提升平均可用时间
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 提升可用时间
+   高素质的工程师，规范的操作流程，全覆盖率的测试，逼真的故障演练，健壮的程序代码，多维度全方位的
+   系统监控等等，都是提高可用性的手段
+* 降低宕机时间
    通过合理的配置，监控，以及规范来避免人为操作错误，定期检修各种监控指标的状态，低于平均指标的
    事项提前做应对处理。
-二、降低平均恢复时间
-   通过冗余快速恢复。制造适量的冗余是很有必要的，可以在关键时刻，通过冗余做很多事情，譬如快速
-   恢复，故障转移，分担压力，任务转移等。冗余可能在不出现宕机的情况下显得多余，但是一旦用到它，
-   投资回报率会很高。
+* 提升恢复速度
+   恢复到可用状态，最快的方法就是故障转移，当故障发生时，将请求快速转移到冗余服务上。所以制造适量
+   的冗余是很有必要的，可以在关键时刻，通过冗余做很多事情，不仅故障转移，譬如快速恢复，分担压力等。
+   冗余可能在不出现宕机的情况下显得多余，但是一旦用到它，投资回报率会很高。
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
-  &lt;h4 id=&quot;31-提升平均可用时间&quot;&gt;3.1 提升平均可用时间&lt;/h4&gt;
+  &lt;h4 id=&quot;31-提升可用时间&quot;&gt;3.1 提升可用时间&lt;/h4&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. 避免使用复杂的特性，譬如触发器和过滤
@@ -327,11 +331,52 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
-  &lt;h4 id=&quot;32-降低平均恢复时间&quot;&gt;3.2 降低平均恢复时间&lt;/h4&gt;
+  &lt;h4 id=&quot;32-降低恢复时间提升恢复速度&quot;&gt;3.2 降低恢复时间（提升恢复速度）&lt;/h4&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.建立冗余，设计一个有故障转移能力的系统架构（增加空余容量和重复组件）
 2.避免单点失效，部署集群系统，并设计切换方案（一主多备，两主多备）
 3.故障演练，提高人员素质，有计划的从宕机时间中恢复
 4.事后评估，记录，载入故障库，以优化未来的系统架构
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;4-建立冗余&quot;&gt;4 建立冗余&lt;/h3&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;41-复制&quot;&gt;4.1 复制&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    mysql及其灵活的架构，被互联网行业垂青已久。
+    在主（写）服务器（主库）完成事务后，可以将执行过的事务以日志的方式记录下来，称为binlog
+（二进制日志）,二进制日志既可以保存已执行过的命令(command)，也可以保存磁盘变化的数据(rowdata)。
+那么有了这个binlog，就可以将其复制到另一台mysql服务器（从库）上重放执行一遍，一个主库可以配置
+多个从库，从而将主库上发生的变化，传播到多个从库。如下图	
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1584810748528&amp;amp;di=ef583b5e614fdfb442afbd4ab0e2253f&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D1112011707%2C3476314427%26fm%3D214%26gp%3D0.jpg&quot; alt=&quot;avatar&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;大概流程如下
+1.主库保存binlog
+2.从库的IO线程读取binlog，保存到自己的中继日志（relay）
+3.从库的sql线程读取中继日志，重放执行
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    分析下，主库可以并发的执行事务，但是从库重放是单线程执行的，所以如果是一个很繁忙的系统，
+可能从库和主库上的数据在某个时间点上是不一致的，但是一旦主库上的事务处理数降低下来，从库可
+以在一段时间内赶上主库，所以需要衡量可以在忍受多少时间段内的不一致性。如果主库刚好正好在系统
+繁忙的时候宕机，此时，如果备库立即切换为主库，则可能会由于数据不一致而导致错误。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    服务冗余除了能提供故障转移，还能分担主库的压力，可以做读写分离，主库写入，从库读取，目
+前市面上很多的读写分离的底层支撑就是mysql的复制能力。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;42-备份&quot;&gt;4.2 备份&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    备份也是一种冗余手段，可以设计很好的备份策略，按月，按天，按时段等，长周期做全备，短周期
+做增备，日数据快照等等，可以是mysqldump转储，也可以将binlog。
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">mysql架构</title><link href="http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html" rel="alternate" type="text/html" title="mysql架构" /><published>2019-12-01T08:00:00+08:00</published><updated>2019-12-01T08:00:00+08:00</updated><id>http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84</id><content type="html" xml:base="http://localhost:4000/mysql/2019/12/01/mysql%E6%9E%B6%E6%9E%84.html"></content><author><name></name></author><summary type="html"></summary></entry></feed>

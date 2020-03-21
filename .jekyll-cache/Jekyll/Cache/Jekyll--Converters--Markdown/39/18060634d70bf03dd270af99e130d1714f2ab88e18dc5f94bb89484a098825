@@ -1,0 +1,67 @@
+I".<p><img src="http://desk.fd.zol-img.com.cn/t_s960x600c5/g5/M00/02/09/ChMkJlbKziGIMPsKADQ_w9jg3uoAALJHwF8MuAAND_b114.jpg" alt="avatar" /></p>
+
+<blockquote>
+
+  <h3 id="1-可用性">1. 可用性</h3>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    讲高可用前，我们先定义一下可用性：即服务器能正常稳如一匹老马般的提供服务。
+反之，大到自然灾害，数据中心掉电，服务器宕机，网络瘫痪，磁盘爆满。小到数据库死锁，alter语句锁
+全表，糟糕的查询语句压死数据库等。这些情况平时很少发生，可一旦发生，在修复及预热前那段时间，mysql
+是不可用的。针对这种情况，你是否想过怎么处理？如果是在可用性要求非常高的领域，这可能是致命的。归根
+结底，高可用意味着”更少的宕机时间“。
+</code></pre></div></div>
+
+<blockquote>
+  <h3 id="2-防患未燃">2. 防患未燃</h3>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    使用这个词可能会使你记住这一页的内容，标新立异嘛。先发制人通常可以一招制敌。解决一个麻烦最
+好的办法，就是别让这个麻烦发生。而且，别让这个麻烦发生的成本，会比发生后，解决麻烦和它本身带来的
+成本低不止一个数量级。所以，从需求及设计阶段开始，就将系统（不止mysql）的可用性考虑进去吧。为了
+从99到99999而努力吧。
+</code></pre></div></div>
+
+<blockquote>
+  <h3 id="3-如何实现高可用">3. 如何实现高可用</h3>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>一、降低宕机时间，提升平均可用时间
+   通过合理的配置，监控，以及规范来避免人为操作错误，定期检修各种监控指标的状态，低于平均指标的
+   事项提前做应对处理。
+二、降低平均恢复时间
+   通过冗余快速恢复。制造适量的冗余是很有必要的，可以在关键时刻，通过冗余做很多事情，譬如快速
+   恢复，故障转移，分担压力，任务转移等。冗余可能在不出现宕机的情况下显得多余，但是一旦用到它，
+   投资回报率会很高。
+</code></pre></div></div>
+
+<blockquote>
+  <h4 id="31-提升平均可用时间">3.1 提升平均可用时间</h4>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 避免使用复杂的特性，譬如触发器和过滤
+2. 监控服务器的状态和性能指数，重要的组件和功能，譬如内存，磁盘空间等，但要避免误报，“狼来了”喊多了就没人在意了
+3. 数据库升级，DDL语句等升级需要谨慎安排，多人参与
+4. 定期检查复制（上面提的冗余）的完成性
+5. 定期进行查询语句审查
+6. 归档并清理脏数据，避免以后造成数据三不管地带，谁都不知道它是用来干什么的
+7. 为文件保留一些空间，在Linux系统中，可以使用-m选项为文件系统本身保留空间
+8. 使用好的命名和约定来避免混乱
+9. 保持系统干净，最小权限原则
+</code></pre></div></div>
+
+<blockquote>
+  <h4 id="32-降低平均恢复时间">3.2 降低平均恢复时间</h4>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1.建立冗余，设计一个有故障转移能力的系统架构（增加空余容量和重复组件）
+2.避免单点失效，部署集群系统，并设计切换方案（一主多备，两主多备）
+3.故障演练，提高人员素质，有计划的从宕机时间中恢复
+4.事后评估，记录，载入故障库，以优化未来的系统架构
+</code></pre></div></div>
+
+<blockquote>
+  <h3 id="建立冗余">建立冗余</h3>
+</blockquote>
+
+:ET
